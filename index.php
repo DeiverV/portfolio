@@ -103,7 +103,7 @@
                     <button id="proyectsBtn">Proyects</button>
                 </div>
                 <div>
-                    <button>Blog</button>
+                    <button id="blogBtn">Blog</button>
                 </div>
                 <div>
                     <button>Comments</button>
@@ -187,6 +187,7 @@
                         A website / Socialmedia to upload and see food recipes. Also to interact with
                         community. Built with HTML, CSS, JavaScript, PHP, PostgreSQL, Python, MongoDB.
                     </p>
+                    <a href="https://www.makefs.site" target="_blank"><button class="seeMoreProyect">See more</button></a>
                 </div>
             </div>
             <div class="proyect">
@@ -199,6 +200,7 @@
                         A website for building computer resumes. An administrative web to have better control over the computers that a organization has.
                         Built with Django, SpringBoot, NodeJs, VueJs, ApolloServer, GraphQL, MongoDB, PostgreSQL, Docker.
                     </p>
+                    <a href="https://www.youtube.com/watch?v=Q1soOMkoaAM&ab_channel=MisiónTIC2022UNAL" target="_blank"><button class="seeMoreProyect">See more</button></a>
                 </div>
             </div>
             <div class="proyect">
@@ -208,6 +210,57 @@
                 <div class="infoProyect"> 
                     <h3>Fan Page DarkSouls</h3>
                     <p>A tribute web to the videogame "DarkSouls". A informative web about the game. Built with HTML, CSS , JavaScript</p>
+                    <a href=""><button class="seeMoreProyect">See more</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog">
+        <div id="containerBlog">
+            <h1>My Blog :)</h1>
+            <figure id="closeBlog">X</figure>
+            <div class="publication">
+                <div class="userPublication">
+                    <div class="infoUserBlog">
+                        <img src="./img/yo.jpeg" alt="me">
+                        <h3>Deiber Verano Avila</h3>
+                    </div>
+                    <h5>2021/21/12</h5>
+                </div>
+                <div class="bodyPublication">
+                    <h4>My first publication in my own blog!</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Ipsum fugit quaerat possimus ratione quidem accusantium 
+                        repudiandae enim rerum numquam dolorem, vel aspernatur 
+                        doloribus perferendis, in eum totam cum nobis optio?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Ipsum fugit quaerat possimus ratione quidem accusantium 
+                        repudiandae enim rerum numquam dolorem, vel aspernatur 
+                        doloribus perferendis, in eum totam cum nobis optio?
+                    </p>
+                </div>
+            </div>
+            <div class="publication">
+                <div class="userPublication">
+                    <div class="infoUserBlog">
+                        <img src="./img/yo.jpeg" alt="me">
+                        <h3>Deiber Verano Avila</h3>
+                    </div>
+                    <h5>2021/21/12</h5>
+                </div>
+                <div class="bodyPublication">
+                    <h4>My first publication in my own blog!</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Ipsum fugit quaerat possimus ratione quidem accusantium 
+                        repudiandae enim rerum numquam dolorem, vel aspernatur 
+                        doloribus perferendis, in eum totam cum nobis optio?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Ipsum fugit quaerat possimus ratione quidem accusantium 
+                        repudiandae enim rerum numquam dolorem, vel aspernatur 
+                        doloribus perferendis, in eum totam cum nobis optio?
+                    </p>
                 </div>
             </div>
         </div>
@@ -215,6 +268,7 @@
     <script src="./js/particles.js"></script>
     <script src="./js/certificates.js"></script>
     <script src="./js/proyects.js"></script>
+    <script src="./js/blog.js"></script>
     <script src="./js/home.js"></script>
 </body>
 </html>
