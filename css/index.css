@@ -137,6 +137,7 @@ section{
     box-shadow:  20px 20px 60px #1b1b1b,
                 -20px -20px 60px #000000;    
     display: flex;
+    overflow: hidden;
 }
 
 #containerIndex{
@@ -565,7 +566,7 @@ section{
 /*------------------------------------------------------- CERTIFICATES*/
 
 #certificates{
-    width: 92vw;
+    width: 90.7vw;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -653,7 +654,7 @@ section{
 }
 /*--------------------------------------------------------- PROYECTS*/
 #proyects{
-    width: 92vw;
+    width: 90.7vw;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -762,7 +763,7 @@ section{
 
 /*--------------------------------------------------BLOG*/
 #blog{
-    width: 92vw;
+    width: 90.7vw;
     height: 100vh;
     position:absolute;
     top:0;
@@ -782,8 +783,14 @@ section{
     justify-content: center;
     align-items: center;
 }
-#containerBlog h1{
-    margin: 5vh 0;
+#tittleSectionBlog{
+    width: 100%;
+    background: #d6d6d6;
+    color: #202020;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .publication{
     margin-bottom: 9vh;
@@ -807,6 +814,9 @@ section{
     align-items: center;
     font-size: 1.3em;
     border-bottom: 2px solid var(--color1);
+}
+.userPublication h5{
+    width: 6vw;
 }
 .infoUserBlog{
     width: 100%;
@@ -849,14 +859,13 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 2vh;
+    top: 1.5vh;
     left: 5vh;
-    background-color: #FFD100;
+    background-color: #202020;
     width: 5vh;
     height: 5vh;
-    color: var(--color4);
+    color: var(--color1);
     border-radius: 50%;
     font-family: josefinSans-medium;
-    font-size: 1.5em;
     cursor: pointer;
 }

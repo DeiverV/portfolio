@@ -38,7 +38,7 @@ btnToOpenBlog.addEventListener("click",(e)=>{
     },100)
     
     setTimeout(()=>{
-        btnToOpenBlog.style.paddingBottom="77vh"
+        btnToOpenBlog.style.paddingBottom="150vh"
         btnToOpenBlog.style.color="transparent";
         btnToOpenBlog.style.marginRight="10vh";
     },500)

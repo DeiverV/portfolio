@@ -217,52 +217,38 @@
     </section>
     <section id="blog">
         <div id="containerBlog">
-            <h1>My Blog :)</h1>
+            <h1 id="tittleSectionBlog">Welcome to my Blog!<h1>
             <figure id="closeBlog">X</figure>
-            <div class="publication">
-                <div class="userPublication">
-                    <div class="infoUserBlog">
-                        <img src="./img/yo.jpeg" alt="me">
-                        <h3>Deiber Verano Avila</h3>
-                    </div>
-                    <h5>2021/21/12</h5>
-                </div>
-                <div class="bodyPublication">
-                    <h4>My first publication in my own blog!</h4>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Ipsum fugit quaerat possimus ratione quidem accusantium 
-                        repudiandae enim rerum numquam dolorem, vel aspernatur 
-                        doloribus perferendis, in eum totam cum nobis optio?
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Ipsum fugit quaerat possimus ratione quidem accusantium 
-                        repudiandae enim rerum numquam dolorem, vel aspernatur 
-                        doloribus perferendis, in eum totam cum nobis optio?
-                    </p>
-                </div>
-            </div>
-            <div class="publication">
-                <div class="userPublication">
-                    <div class="infoUserBlog">
-                        <img src="./img/yo.jpeg" alt="me">
-                        <h3>Deiber Verano Avila</h3>
-                    </div>
-                    <h5>2021/21/12</h5>
-                </div>
-                <div class="bodyPublication">
-                    <h4>My first publication in my own blog!</h4>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Ipsum fugit quaerat possimus ratione quidem accusantium 
-                        repudiandae enim rerum numquam dolorem, vel aspernatur 
-                        doloribus perferendis, in eum totam cum nobis optio?
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Ipsum fugit quaerat possimus ratione quidem accusantium 
-                        repudiandae enim rerum numquam dolorem, vel aspernatur 
-                        doloribus perferendis, in eum totam cum nobis optio?
-                    </p>
-                </div>
-            </div>
+            
+                <?php
+                    include("./controllers/conexion.php");
+                    $conexion = new Conexion;
+                    $conexion = $conexion->Conectar();
+                    $select = "SELECT * FROM blog ORDER BY upload DESC";
+                    $execute = $conexion->prepare($select);
+                    $execute->execute();
+                    while($posts = $execute->fetch(PDO::FETCH_ASSOC)){
+                        if(isset($posts)){
+                            echo <<<EOT
+                            <div class="publication">
+                                <div class="userPublication">
+                                    <div class="infoUserBlog">
+                                        <img src="./img/yo.jpeg" alt="me">
+                                        <h3>Deiber Verano Avila</h3>
+                                    </div>
+                                    <h5>$posts[upload]</h5>
+                                </div>
+                                <div class="bodyPublication">
+                                    <h4>$posts[tittle]</h4>
+                                    <p>$posts[bodytext]</p>
+                                </div>
+                            </div>
+                            EOT;
+                        }else{
+                            echo "no hau una monda";
+                        }
+                    }
+                ?>
         </div>
     </section>
     <script src="./js/particles.js"></script>
