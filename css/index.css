@@ -334,10 +334,10 @@ section{
 }
 
 #particles-js{
-    top: -5%;
+    top: -8%;
     position: relative;
     width: 100%;
-    height: 15%;
+    height: 20%;
 }
 
 #imgsflotantes{
@@ -387,14 +387,9 @@ section{
     50% { top: 95%; left: 55%; }
     100% { top: 0%; left: 45%; }
 }
-@keyframes movimiento9 {
-    0% { top: 95%; left: 0%; }
-    50% { top: 0%; left: -15%; }
-    100% { top: 95%; left: 0%; }
-}
 @keyframes movimiento10 {
     0% { top: 0%; left: 15%; }
-    50% { top: -60%; left: 35%; }
+    50% { top: 60%; left: 35%; }
     100% { top: 0%; left: 15%; }
 }
 
@@ -437,10 +432,8 @@ section{
 #imgsflotantes img:nth-child(8){
     animation: movimiento8 6s infinite linear;
 }
+
 #imgsflotantes img:nth-child(9){
-    animation: movimiento9 6s infinite linear;
-}
-#imgsflotantes img:nth-child(10){
     animation: movimiento10 6s infinite linear;
 }
 
@@ -477,96 +470,13 @@ section{
 
 /*------------------------------------------------------------------------RESPONSIVE INDEX*/
 
-@media (max-width: 1060px) {
-    #containerIndex{
-        flex-direction: column;
-    }
-    #home{
-        height: auto;
-    }
-    #socialMedia{
-        height: 10vh;
-    }
-    #infoDeiber{
-        width: 95%;
-        height: 90vh;
-        margin-top: 5vh;
-        align-items: center;
-    }
-    #tittle{
-        margin-top: 0;
-        margin-bottom: 5vh;
-        text-align: center;
-    }
-    .cube{
-        position: fixed;
-        bottom: 5%;
-        right: 2%;
-    }
-    #description{
-        width: 80%;
-        height: 70vh;
-    }
-    #menu{
-        display: none;
-    }
-    #particles-js{
-        bottom: 5vh;
-        height: 10vh;
-    }
-}
 
-@media (max-width:745px) {
-    #description{
-        height: 85vh;
-    }
-}
 
-@media (max-width: 830px){
-    #tittle h1{
-        font-size: 1em;
-    }
-}
-
-@media (max-width: 640px){
-    #tittle{
-        flex-direction: column;
-        height: auto;
-    }
-    #tittle h2{
-        margin: 0;
-    }
-    #tittle h1{
-        margin-top: 0;
-    }
-    #description{
-        height: 82vh;
-    }
-}
-
-@media(max-width:360px),(max-height:640px){
-    
-    #infoDeiber{
-        height: 110vh;
-    }
-    #socialMedia{
-        height: 20vh;
-        font-size: 0.7em;
-    }
-    #socialMedia a img{
-        padding: 0;
-        width: 4.5vh;
-        height: 4.5vh;
-    }
-    #description{
-        height: 162vh;
-    }
-}
 
 /*------------------------------------------------------- CERTIFICATES*/
 
 #certificates{
-    width: 90.7vw;
+    width: 92.7vw;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -637,7 +547,7 @@ section{
 }
 
 #closeCategorie{
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -654,7 +564,7 @@ section{
 }
 /*--------------------------------------------------------- PROYECTS*/
 #proyects{
-    width: 90.7vw;
+    width: 92.7vw;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -745,7 +655,7 @@ section{
 }
 
 #closeProyects{
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -763,7 +673,7 @@ section{
 
 /*--------------------------------------------------BLOG*/
 #blog{
-    width: 90.7vw;
+    width: 92.7vw;
     height: 100vh;
     position:absolute;
     top:0;
@@ -855,7 +765,7 @@ section{
 }
 
 #closeBlog{
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -868,4 +778,177 @@ section{
     border-radius: 50%;
     font-family: josefinSans-medium;
     cursor: pointer;
+}
+/*-----------------------------------------------------RESPONSIVE*/
+@media (max-width: 1060px) {
+    #containerIndex{
+        flex-direction: column;
+    }
+    #home{
+        height: auto;
+    }
+    #socialMedia{
+        height: 10vh;
+    }
+    #infoDeiber{
+        width: 95%;
+        height: 90vh;
+        margin-top: 5vh;
+        align-items: center;
+    }
+    #tittle{
+        margin-top: 0;
+        margin-bottom: 5vh;
+        text-align: center;
+    }
+    .cube{
+        position: fixed;
+        bottom: 5%;
+        right: 2%;
+    }
+    #description{
+        width: 80%;
+        height: 70vh;
+    }
+    #menu{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        
+        margin-bottom: 2vh;
+    }
+    #menu div{
+        width: 20%;
+        border-right: none;
+        border-bottom: 2px solid #FFD100;
+    }
+    #particles-js{
+        bottom: 5vh;
+        height: 10vh;
+    }
+    #homeDivBtn{
+        display: none !important;
+    }
+    #certificates{
+        width: 100vw !important;
+    }
+    #proyects{
+        width: 100vw !important;
+    }
+    #blog{
+        width: 100vw !important;
+    }
+}
+
+@media (max-height:760px) ,(max-width:1320px){
+    #description {
+        font-size: 1.3em;
+    }
+    #imgsflotantes img:nth-child(9){
+        display: none;
+    }
+
+}
+
+@media (max-width:745px) {
+    #description{
+        height: 85vh;
+    }
+}
+
+@media (max-width: 830px){
+    #tittle h1{
+        font-size: 1em;
+    }
+}
+
+
+@media(max-width:640px),(max-height:640px){
+    #tittle{
+        flex-direction: column;
+        height: auto;
+    }
+    #tittle h2{
+        margin: 0;
+    }
+    #tittle h1{
+        margin-top: 0;
+    }
+    #infoDeiber{
+        height: 110vh;
+    }
+    #socialMedia{
+        height: 20vh;
+        font-size: 0.7em;
+    }
+    #socialMedia a img{
+        padding: 0;
+        width: 4.5vh;
+        height: 4.5vh;
+    }
+    #description{
+        height: 128vh;
+    }
+    #description p{
+        margin-bottom: 8vh;
+    }
+    .certificate{
+        padding-bottom: 5vh;
+        flex-direction: column;
+    }
+    .certificate img{
+        width: 41vh;
+        height: 27vh;
+        object-fit: contain;
+    }
+    .certificateInfo{
+        width: 85%;
+    }
+    #closeCategorie{
+        left: -3vh;
+    }
+    .proyect{
+        margin-bottom: 12vh;
+        padding: 5vh 0;
+        height: auto;
+    }
+    .imgProyect img{
+        width: 36vh;
+    }
+    #closeProyects{
+        left: -3%;
+    }
+    #closeBlog{
+        left: -6vh;
+        top:1vh;
+    }
+    #imgsflotantes img{
+        position: initial;
+    }
+    .particles-js-canvas-el{
+        display: none;
+    }
+}
+
+@media (max-width:430px){
+    #description{
+        height: 110vh;
+    }
+    #socialMedia{
+        height: 14vh;
+    }
+    #imgProgrammer img{
+        width: 45vh;
+        height: 45vh;
+    }
+}
+@media (max-width:380px) {
+    #description{
+        height: 125vh;
+    }
+}
+@media (max-width:330px) {
+    #description{
+        height: 157vh;
+    }
 }

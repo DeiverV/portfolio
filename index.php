@@ -87,13 +87,12 @@
                         <img src="./icons/php.png" alt="">
                         <img src="./icons/posgre.png" alt="">
                         <img src="./icons/css.png" alt="">
-                        <img src="./icons/java.png" alt="">
                         <img src="./icons/python.png" alt="">
                     </div>
                 </div>
             </div>
             <nav id="menu">
-                <div>
+                <div id="homeDivBtn">
                     <button id="homeBtn">Home</button>
                 </div>
                 <div>
@@ -105,9 +104,7 @@
                 <div>
                     <button id="blogBtn">Blog</button>
                 </div>
-                <div>
-                    <button>Comments</button>
-                </div>
+                
             </nav>
         </div>
     </section>
@@ -170,6 +167,13 @@
                     <p>A course about soft skills. how to improve the work teams, how to have assertive communication and how build nice relationships in the work environment.</p>
                 </div>
                 <img src="./img/habilidadesEmpleo.jpg" alt="" srcset="">
+            </div>
+            <div class="certificate">
+                <div class="certificateInfo">
+                    <h3>Skills to create networks and alliances of trust at work - SENA</h3>
+                    <p>Course about soft skills, how to create nice alliances and work teams. How to have a assertive comunication, be a good leader.</p>
+                </div>
+                <img src="./img/derechos-fundamentales.jpg" alt="" srcset="">
             </div>
         </div>
     </section>
