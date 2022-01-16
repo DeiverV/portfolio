@@ -326,6 +326,7 @@ section{
     color: var(--color1);
     font-family: josefinSans-medium;
     letter-spacing: 0.2em;
+    text-align: center;
 }
 
 #description h3{
@@ -535,6 +536,7 @@ section{
 .certificate img{
     height: 40vh;
     cursor: pointer;
+    transition: .1s;
 }
 
 #certificates::-webkit-scrollbar{
@@ -544,6 +546,27 @@ section{
 
 #certificates::-webkit-scrollbar-thumb{
     background-color: var(--color3);
+}
+
+.sectionImgCertificado{
+    transition: .1s;
+}
+
+.closeCertifi{
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 5vh;
+    left: 5vh;
+    background-color: #FFD100;
+    width: 5vh;
+    height: 5vh;
+    color: var(--color4);
+    border-radius: 50%;
+    font-family: josefinSans-medium;
+    font-size: 1.5em;
+    cursor: pointer;
 }
 
 #closeCategorie{

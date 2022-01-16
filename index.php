@@ -114,70 +114,100 @@
                     <h3>Mision Tic 2022 - UNAL</h3>
                     <p>A diploma with deepending in web development. Learn about Software architecture, Data Bases, Python, Java, NodeJs, Vue.js, Docker and Js </p>
                 </div>
-                <img class="imgCertificado" src="./img/misionTic.png" alt="" srcset="">
+                <div class="sectionImgCertificado">
+                    <img class="imgCertificado" src="./img/misionTic.png" alt="" srcset="">
+                    <figure class="closeCertifi">X</figure>
+                </div>
             </div>
             <div class="certificate">
                 <div class="certificateInfo">
                     <h3>Systemic Thinking - UTADEO</h3>
                     <p>A course about Systems. what are the systems? how are they composed? and how they are modeled</p>
                 </div>
-                <img class="imgCertificado" src="./img/pensamientoSistemico.jpg" alt="" srcset="">
+                <div class="sectionImgCertificado">
+                    <img class="imgCertificado" src="./img/pensamientoSistemico.jpg" alt="" srcset="">
+                    <figure class="closeCertifi">X</figure>
+                </div>
             </div>
             <div class="certificate">
                 <div class="certificateInfo">
                     <h3>Digital skills for information management - SENA</h3>
                     <p>How the information needs to be manage via socialMedia and other digital skills.</p>
                 </div>
-                <img class="imgCertificado" src="./img/gestionInfo.jpg" alt="" srcset="">
+                <div class="sectionImgCertificado">
+                    <img class="imgCertificado" src="./img/gestionInfo.jpg" alt="" srcset="">
+                    <figure class="closeCertifi">X</figure>
+                </div>
             </div>
             <div class="certificate">
                 <div class="certificateInfo">
                     <h3>University CSS - Global Mentoring (UDEMY)</h3>
                     <p>All about CSS. How to give good styles to a web page</p>
                 </div>
-                <img class="imgCertificado" src="./img/ucss.jpg" alt="" srcset="">
+                <div class="sectionImgCertificado">
+                    <img class="imgCertificado" src="./img/ucss.jpg" alt="" srcset="">
+                    <figure class="closeCertifi">X</figure>
+                </div>
             </div>
             <div class="certificate">
                 <div class="certificateInfo">
                     <h3>University HTML - Global Mentoring (UDEMY)</h3>
                     <p>All about HTML. How to make a good web taking into consideration the best practices with semantic Tags</p>
                 </div>
-                <img class="imgCertificado" src="./img/uhtml.jpg" alt="" srcset="">
+                <div class="sectionImgCertificado">
+                    <img class="imgCertificado" src="./img/uhtml.jpg" alt="" srcset="">
+                    <figure class="closeCertifi">X</figure>
+                </div>
             </div>
             <div class="certificate">
                 <div class="certificateInfo">
                     <h3>Exercises of SQL - Numpi (UDEMY)</h3>
                     <p>Exercises to practice SQL sentences. (SELECT, UPDATE, DELETE, INSERT, WHERE, JOINS)</p>
                 </div>
-                <img class="imgCertificado" src="./img/ejerciciosSQL.jpg" alt="" srcset="">
+                <div class="sectionImgCertificado">
+                    <img class="imgCertificado" src="./img/ejerciciosSQL.jpg" alt="" srcset="">
+                    <figure class="closeCertifi">X</figure>
+                </div>
             </div>
             <div class="certificate"> 
                 <div class="certificateInfo">
                     <H3>Creation of SQL DataBases - Numpi (UDEMY)</H3>
                     <p>A little course about create databases in MySQL taking into consideration the best practices in DB structure.</p>
                 </div>
-                <img class="imgCertificado" src="./img/creacionSQL.jpg" alt="" srcset="">
+                <div class="sectionImgCertificado">
+                    <img class="imgCertificado" src="./img/creacionSQL.jpg" alt="" srcset="">
+                    <figure class="closeCertifi">X</figure>
+                </div>
             </div>
             <div class="certificate">
                 <div class="certificateInfo">
                     <h3>Innovative entrepreneurship - SENA</h3>
                     <p>A course about how to build a entrepreneur and keep doing innovative things.</p>
                 </div>
-                <img class="imgCertificado" src="./img/emprendimiento.jpg" alt="" srcset="">
+                <div class="sectionImgCertificado">
+                    <img class="imgCertificado" src="./img/emprendimiento.jpg" alt="" srcset="">
+                    <figure class="closeCertifi">X</figure>
+                </div>
             </div>
             <div class="certificate">
                 <div class="certificateInfo">
                     <h3>Job Skills - Telefonica Fundacion (Movistar)</h3>
                     <p>A course about soft skills. how to improve the work teams, how to have assertive communication and how build nice relationships in the work environment.</p>
                 </div>
-                <img class="imgCertificado" src="./img/habilidadesEmpleo.jpg" alt="" srcset="">
+                <div class="sectionImgCertificado">
+                    <img class="imgCertificado" src="./img/habilidadesEmpleo.jpg" alt="" srcset="">
+                    <figure class="closeCertifi">X</figure>
+                </div>
             </div>
             <div class="certificate">
                 <div class="certificateInfo">
                     <h3>Skills to create networks and alliances of trust at work - SENA</h3>
                     <p>Course about soft skills, how to create nice alliances and work teams. How to have a assertive comunication, be a good leader.</p>
                 </div>
-                <img class="imgCertificado" src="./img/derechos-fundamentales.jpg" alt="" srcset="">
+                <div class="sectionImgCertificado">
+                    <img class="imgCertificado" src="./img/derechos-fundamentales.jpg" alt="" srcset="">
+                    <figure class="closeCertifi">X</figure>
+                </div>
             </div>
         </div>
     </section>
@@ -225,7 +255,7 @@
     </section>
     <section id="blog">
         <div id="containerBlog">
-            <h1 id="tittleSectionBlog">Welcome to my Blog!<h1>
+            <h1 id="tittleSectionBlog">Welcome to my Blog!</h1>
             <figure id="closeBlog">X</figure>
             
                 <?php
@@ -238,24 +268,24 @@
                     while($posts = $execute->fetch(PDO::FETCH_ASSOC)){
                         if(isset($posts)){
                             echo <<<EOT
-                            <div class="publication">
-                                <div class="userPublication">
-                                    <div class="infoUserBlog">
-                                        <img src="./img/yo.jpeg" alt="me">
-                                        <h3>Deiber Verano Avila</h3>
+                                <div class="publication">
+                                    <div class="userPublication">
+                                        <div class="infoUserBlog">
+                                            <img src="./img/yo.jpeg" alt="me">
+                                            <h3>Deiber Verano Avila</h3>
+                                        </div>
+                                        <h5>$posts[upload]</h5>
                                     </div>
-                                    <h5>$posts[upload]</h5>
+                                    <div class="bodyPublication">
+                                        <h4>$posts[tittle]</h4>
+                                        <p>$posts[bodytext]</p>
+                                    </div>
                                 </div>
-                                <div class="bodyPublication">
-                                    <h4>$posts[tittle]</h4>
-                                    <p>$posts[bodytext]</p>
-                                </div>
-                            </div>
                             EOT;
                         }else{
                             echo "no hau una monda";
-                        }
-                    }
+                        };
+                    };
                 ?>
         </div>
     </section>

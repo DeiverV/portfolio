@@ -1,16 +1,44 @@
 let btnToOpen = document.querySelector("#certificatesBtn");
 let certificates = document.querySelector("#certificates");
 let btnCloseCategorie = document.querySelector("#closeCategorie");
-let imgsCertificates = document.querySelectorAll('.imgCertificado');
+let sectionCertificatesImg = document.querySelectorAll('.sectionImgCertificado');
 
-imgsCertificates.forEach(certificate => {
-    certificate.addEventListener('click', (e) =>{
-        certificate.style.position="absolute";
-        certificate.style.top="0";
-        certificate.style.left="0";
-        certificate.style.width="50vh";
+sectionCertificatesImg.forEach(sectionCer => {
+    sectionCer.addEventListener('click',(e)=>{
+        e.preventDefault();
+        sectionCer.style.position="fixed";
+        sectionCer.style.top="0";
+        sectionCer.style.left="0";
+        sectionCer.style.width="100%";
+        sectionCer.style.height="100%";
+        sectionCer.style.background="#00000082";
+        sectionCer.style.backdropFilter="blur(3px)";
+        sectionCer.style.display="flex";
+        sectionCer.style.justifyContent="center";
+        sectionCer.style.alignItems="center";
+        sectionCer.firstElementChild.style.height="70%";
+        sectionCer.lastElementChild.style.display="flex";
     })
-});
+    sectionCer.lastElementChild.addEventListener('click',(e)=>{
+        e.preventDefault();
+        setTimeout(()=>{
+            sectionCer.lastElementChild.style.display="none";
+            sectionCer.style.position="inherit";
+            sectionCer.style.top="0";
+            sectionCer.style.left="0";
+            sectionCer.style.width="auto";
+            sectionCer.style.height="auto";
+            sectionCer.style.background="rgb(0 0 0 / 0%)";
+            sectionCer.style.backdropFilter="blur(0px)";
+            sectionCer.style.display="block";
+            sectionCer.style.justifyContent="center";
+            sectionCer.style.alignItems="center";
+            sectionCer.firstElementChild.style.height="40vh";
+        },100)
+    })
+})
+
+
 
 if(window.innerWidth>1060){
 
