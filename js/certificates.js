@@ -4,11 +4,11 @@ let btnCloseCategorie = document.querySelector("#closeCategorie");
 let imgsCertificates = document.querySelectorAll('.imgCertificado');
 
 imgsCertificates.forEach(certificate => {
-    imgsCertificates.addEventListener('click', (e) =>{
-        imgsCertificates.style.position="absolute";
-        imgsCertificates.style.top="0";
-        imgsCertificates.style.left="0";
-        imgsCertificates.style.width="50vh";
+    certificate.addEventListener('click', (e) =>{
+        certificate.style.position="absolute";
+        certificate.style.top="0";
+        certificate.style.left="0";
+        certificate.style.width="50vh";
     })
 });
 
