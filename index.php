@@ -218,7 +218,7 @@
                 <div class="infoProyect"> 
                     <h3>Fan Page DarkSouls</h3>
                     <p>A tribute web to the videogame "DarkSouls". A informative web about the game. Built with HTML, CSS , JavaScript</p>
-                    <a href=""><button class="seeMoreProyect">See more</button></a>
+                    <a href="https://darksoulsfanpage.000webhostapp.com/" target="_blank"><button class="seeMoreProyect">See more</button></a>
                 </div>
             </div>
         </div>
