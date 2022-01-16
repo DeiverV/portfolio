@@ -69,11 +69,11 @@
             <div id="description">
                 <h3>About Me:</h3>
                 <p>
-                    Hi! I'm Deiber Verano Avila, i'm 17 Years Old and I am a Software developer, I love the technology
+                    Hi! I'm 17 Years Old and I am a Software developer, I love the technology
                     see what it is able to do. Now maybe i can consider myself a Junior Developer.
-                    I like study a lot in order to improve my knowledge and skills about programming
+                    I like to study a lot in order to improve my knowledge and skills about programming
                     (Cause develop and be creative is my passion). I have knowledge and basic skills in: Python,
-                     Java, JavaScript, Css, PHP, MySQL, PostgreSQL, GIT - GITHUB. Also i have been worked with SCRUM methodology.
+                     Java, JavaScript, Css, HTML, PHP, MySQL, PostgreSQL, GIT - GITHUB. Also i have been worked with SCRUM methodology.
                 </p>
                 <div id="particles-js">
                     <canvas class="particles-js-canvas-el">
@@ -92,9 +92,6 @@
                 </div>
             </div>
             <nav id="menu">
-                <div id="homeDivBtn">
-                    <button id="homeBtn">Home</button>
-                </div>
                 <div>
                     <button id="certificatesBtn">Certificates</button>
                 </div>
@@ -112,6 +109,13 @@
         <div id="containerCertificates">
             <h1>CERTIFICATES</h1>
             <figure id="closeCategorie">X</figure>
+            <div class="certificate">
+                <div class="certificateInfo">
+                    <h3>Mision Tic 2022 - UNAL</h3>
+                    <p>A diploma with deepending in web development. Learn about Software architecture, Data Bases, Python, Java, NodeJs, Vue.js, Docker and Js </p>
+                </div>
+                <img src="./img/misionTic.png" alt="" srcset="">
+            </div>
             <div class="certificate">
                 <div class="certificateInfo">
                     <h3>Systemic Thinking - UTADEO</h3>
@@ -259,6 +263,5 @@
     <script src="./js/certificates.js"></script>
     <script src="./js/proyects.js"></script>
     <script src="./js/blog.js"></script>
-    <script src="./js/home.js"></script>
 </body>
 </html>
