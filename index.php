@@ -114,70 +114,70 @@
                     <h3>Mision Tic 2022 - UNAL</h3>
                     <p>A diploma with deepending in web development. Learn about Software architecture, Data Bases, Python, Java, NodeJs, Vue.js, Docker and Js </p>
                 </div>
-                <img src="./img/misionTic.png" alt="" srcset="">
+                <img class="imgCertificado" src="./img/misionTic.png" alt="" srcset="">
             </div>
             <div class="certificate">
                 <div class="certificateInfo">
                     <h3>Systemic Thinking - UTADEO</h3>
                     <p>A course about Systems. what are the systems? how are they composed? and how they are modeled</p>
                 </div>
-                <img src="./img/pensamientoSistemico.jpg" alt="" srcset="">
+                <img class="imgCertificado" src="./img/pensamientoSistemico.jpg" alt="" srcset="">
             </div>
             <div class="certificate">
                 <div class="certificateInfo">
                     <h3>Digital skills for information management - SENA</h3>
                     <p>How the information needs to be manage via socialMedia and other digital skills.</p>
                 </div>
-                <img src="./img/gestionInfo.jpg" alt="" srcset="">
+                <img class="imgCertificado" src="./img/gestionInfo.jpg" alt="" srcset="">
             </div>
             <div class="certificate">
                 <div class="certificateInfo">
                     <h3>University CSS - Global Mentoring (UDEMY)</h3>
                     <p>All about CSS. How to give good styles to a web page</p>
                 </div>
-                <img src="./img/ucss.jpg" alt="" srcset="">
+                <img class="imgCertificado" src="./img/ucss.jpg" alt="" srcset="">
             </div>
             <div class="certificate">
                 <div class="certificateInfo">
                     <h3>University HTML - Global Mentoring (UDEMY)</h3>
                     <p>All about HTML. How to make a good web taking into consideration the best practices with semantic Tags</p>
                 </div>
-                <img src="./img/uhtml.jpg" alt="" srcset="">
+                <img class="imgCertificado" src="./img/uhtml.jpg" alt="" srcset="">
             </div>
             <div class="certificate">
                 <div class="certificateInfo">
                     <h3>Exercises of SQL - Numpi (UDEMY)</h3>
                     <p>Exercises to practice SQL sentences. (SELECT, UPDATE, DELETE, INSERT, WHERE, JOINS)</p>
                 </div>
-                <img src="./img/ejerciciosSQL.jpg" alt="" srcset="">
+                <img class="imgCertificado" src="./img/ejerciciosSQL.jpg" alt="" srcset="">
             </div>
             <div class="certificate"> 
                 <div class="certificateInfo">
                     <H3>Creation of SQL DataBases - Numpi (UDEMY)</H3>
                     <p>A little course about create databases in MySQL taking into consideration the best practices in DB structure.</p>
                 </div>
-                <img src="./img/creacionSQL.jpg" alt="" srcset="">
+                <img class="imgCertificado" src="./img/creacionSQL.jpg" alt="" srcset="">
             </div>
             <div class="certificate">
                 <div class="certificateInfo">
                     <h3>Innovative entrepreneurship - SENA</h3>
                     <p>A course about how to build a entrepreneur and keep doing innovative things.</p>
                 </div>
-                <img src="./img/emprendimiento.jpg" alt="" srcset="">
+                <img class="imgCertificado" src="./img/emprendimiento.jpg" alt="" srcset="">
             </div>
             <div class="certificate">
                 <div class="certificateInfo">
                     <h3>Job Skills - Telefonica Fundacion (Movistar)</h3>
                     <p>A course about soft skills. how to improve the work teams, how to have assertive communication and how build nice relationships in the work environment.</p>
                 </div>
-                <img src="./img/habilidadesEmpleo.jpg" alt="" srcset="">
+                <img class="imgCertificado" src="./img/habilidadesEmpleo.jpg" alt="" srcset="">
             </div>
             <div class="certificate">
                 <div class="certificateInfo">
                     <h3>Skills to create networks and alliances of trust at work - SENA</h3>
                     <p>Course about soft skills, how to create nice alliances and work teams. How to have a assertive comunication, be a good leader.</p>
                 </div>
-                <img src="./img/derechos-fundamentales.jpg" alt="" srcset="">
+                <img class="imgCertificado" src="./img/derechos-fundamentales.jpg" alt="" srcset="">
             </div>
         </div>
     </section>

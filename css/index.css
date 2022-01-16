@@ -534,6 +534,7 @@ section{
 
 .certificate img{
     height: 40vh;
+    cursor: pointer;
 }
 
 #certificates::-webkit-scrollbar{

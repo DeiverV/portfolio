@@ -1,7 +1,16 @@
 let btnToOpen = document.querySelector("#certificatesBtn");
 let certificates = document.querySelector("#certificates");
 let btnCloseCategorie = document.querySelector("#closeCategorie");
+let imgsCertificates = document.querySelectorAll('.imgCertificado');
 
+imgsCertificates.forEach(certificate => {
+    imgsCertificates.addEventListener('click', (e) =>{
+        imgsCertificates.style.position="absolute";
+        imgsCertificates.style.top="0";
+        imgsCertificates.style.left="0";
+        imgsCertificates.style.width="50vh";
+    })
+});
 
 if(window.innerWidth>1060){
 
