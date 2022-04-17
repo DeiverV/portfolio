@@ -41,9 +41,9 @@
                            <img src="./icons/githubWhite.png" alt="">
                            <h4>DeiverV</h4>
                        </a>
-                       <a href="https://www.linkedin.com/in/deiber-david-verano-avila-a5b629217/" target="_blank">
+                       <a href="https://www.linkedin.com/in/deiber-verano/" target="_blank">
                             <img src="./icons/linkedin.png" alt="">
-                            <h4>Deiber Verano Avila</h4>
+                            <h4>Deiber Verano</h4>
                        </a>
                        <a href="http://" target="_blank">
                            <img src="./icons/gmail.png" alt="" >
@@ -58,7 +58,7 @@
                 <a href="https://github.com/DeiverV" target="_blank">
                     <img id="github" src="./icons/githubWhite.png" alt="">
                 </a>
-                <a href="https://www.linkedin.com/in/deiber-david-verano-avila-a5b629217/" target="_blank">
+                <a href="https://www.linkedin.com/in/deiber-verano/" target="_blank">
                     <img id="linkedin" src="./icons/linkedin.png" alt="">
                 </a>
                 <a href="http://" target="_blank">
@@ -69,11 +69,11 @@
             <div id="description">
                 <h3>About Me:</h3>
                 <p>
-                    Hi! I'm 17 Years Old and I am a Software developer, I love the technology
-                    see what it is able to do. Now maybe i can consider myself a Junior Developer.
+                    Hi! I am a Junior Software developer, that loves the technology and
+                    see what it's able to do.
                     I like to study a lot in order to improve my knowledge and skills about programming
                     (Cause develop and be creative is my passion). I have knowledge and basic skills in: Python,
-                     Java, JavaScript, Css, HTML, PHP, MySQL, PostgreSQL, GIT - GITHUB. Also i have been worked with SCRUM methodology.
+                     Java, JavaScript, Css, HTML, PHP, MySQL, PostgreSQL, Git - Github, GrahpQL Also I have been worked with SCRUM methodology.
                 </p>
                 <div id="particles-js">
                     <canvas class="particles-js-canvas-el">
@@ -131,11 +131,15 @@
             </div>
             <div class="certificate">
                 <div class="certificateInfo">
-                    <h3>Digital skills for information management - SENA</h3>
-                    <p>How the information needs to be manage via socialMedia and other digital skills.</p>
+                    <h3>Scrum Foundation Professional Certificate -  CertiProf</h3>
+                    <p>
+                        Scrum Foundation Professional Certificate holders have developed the entry-level skills in Scrum that endorses their 
+                        fundamental knowledge in this framework. They have demonstrated an understanding of the empirical Scrum pillars of 
+                        transparency, inspection, and adaptation. Their primary focus is on the work of the Sprint to make the best 
+                        possible progress toward these goals.</p>
                 </div>
                 <div class="sectionImgCertificado">
-                    <img class="imgCertificado" src="./img/gestionInfo.jpg" alt="" srcset="">
+                    <img class="imgCertificado" src="./img/scrumcertificate.png" alt="" srcset="">
                     <figure class="closeCertifi">X</figure>
                 </div>
             </div>
@@ -166,6 +170,16 @@
                 </div>
                 <div class="sectionImgCertificado">
                     <img class="imgCertificado" src="./img/ejerciciosSQL.jpg" alt="" srcset="">
+                    <figure class="closeCertifi">X</figure>
+                </div>
+            </div>
+            <div class="certificate">
+                <div class="certificateInfo">
+                    <h3>Digital skills for information management - SENA</h3>
+                    <p>How the information needs to be manage via socialMedia and other digital skills.</p>
+                </div>
+                <div class="sectionImgCertificado">
+                    <img class="imgCertificado" src="./img/gestionInfo.jpg" alt="" srcset="">
                     <figure class="closeCertifi">X</figure>
                 </div>
             </div>
